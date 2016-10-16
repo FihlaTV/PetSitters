@@ -3,20 +3,27 @@ An exercise in architecting a dogsitter finder airbnb style app with Backbone an
 
 Using handy collections utilty and handlebar helpers to keep code compact for the ingestion of the following endpoints and scenarios:
 
+
 ## Data Endpoints
 
-The endpoints below will return the exact same data payload as shown below. We just want you to interact with the different endpoints. So the response that is returned by http://localhost:3000/static/search.json will be the same as  http://localhost:3000/static/search.json?service=boarding and  http://localhost:3000/static/search.json?service=sitting
+The endpoints below will return the exact same data payload as shown below. We just want you to interact with the different endpoints.
+So the response that is returned by `http://localhost:3000/static/search.json` will be the same as `
+http://localhost:3000/static/search.json?service=boarding` and `
+http://localhost:3000/static/search.json?service=sitting`
 
-## Individual Endpoints
+### Individual Endpoints
 
+```
 http://localhost:3000/static/search.json
 http://localhost:3000/static/search.json?service=boarding
 http://localhost:3000/static/search.json?service=sitting
-User Stories
+```
 
-__GIVEN: A user comes to a search page
-__WHEN: The user views the page
-__THEN: They will see a list of results containing:
+## User Stories
+
+__GIVEN__: A user comes to a search page  
+__WHEN__: The user views the page  
+__THEN__: They will see a list of results containing:
 
 * A Title
   * With URL link to individual page.  The rules to create the URL's are below.
