@@ -1,0 +1,14 @@
+<button id="boarding_fitler" data-filter-by="boarding" class="updateFilter">Filter by Boarding</button>
+<button id="sitting_filter" data-filter-by="sitting" class="updateFilter">Filter by Sitting</button>
+
+<ul>
+	{{#each result}}
+		<li>
+				<p><a target="_blank" href={{url}}>{{title}}</a></p>
+				<p>{{firstLastnameInit}}</p>
+				<p>{{pet.name}}</p>
+				<p class="descript">{{descript_vanity}}</p>
+		</li>
+	{{/each}}
+</ul>
+	
