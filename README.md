@@ -1,5 +1,5 @@
 # Backbone-Petlist
-An exercise in architecting a dogsitter finder airbnb style app with Backbone and Handlebar running on webpack dev server for demo. Just npm install and run `npm run dev` to demo.
+An exercise in architecting a dogsitter finder airbnb style app with Backbone and Handlebar running on webpack dev server for demo. Just `npm install`and run `npm run dev` to demo.
 
 Using handy collections utilty and handlebar helpers to keep code compact for the ingestion of the following endpoints and scenarios:
 
