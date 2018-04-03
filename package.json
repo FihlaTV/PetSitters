@@ -40,7 +40,7 @@
     "handlebars": "^4.0.5",
     "handlebars-loader": "^1.2.0",
     "html-webpack-plugin": "^2.7.1",
-    "jquery": "^2.2.3",
+    "jquery": "^3.0.1",
     "json-loader": "^0.5.4",
     "strip-loader": "^0.1.0",
     "style-loader": "^0.13.0",
